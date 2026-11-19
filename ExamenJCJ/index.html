@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levis</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #d31145; 
+            color: white;
+            padding: 20px;
+            display: flex; 
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        .logo-header {
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+            background-color: white;
+        }
+        .header-texto {
+            text-align: left;
+        }
+        header h1 {
+            margin: 0;
+            letter-spacing: 3px;
+        }
+        header p {
+            margin: 5px 0 0 0;
+        }
+        nav {
+            background-color:white;
+            padding: 12px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #000000;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        section {
+            margin-bottom: 40px;
+            padding-top: 20px;
+        }
+        .promo {
+            background-color: #ffe6ec;
+            border-left: 5px solid #d31145;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .b {
+            display: flex;
+            gap: 15px;
+            justify-content: space-between;
+        }
+        .card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            width: 30%;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .card img {
+            width: 100%;
+            height: 150px;  
+            object-fit: cover; 
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #d31145;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #a80d36;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+<body>
+    <nav class="header">
+        <img src="loguito.png" alt="" style="width:3%">
+        <a href="#mujer">Mujer</a>
+        <a href="#hombre">Hombre</a>
+        <a href="#kids">Kids</a>
+        <a href="#Colecciones">Colecciones</a>
+        <a href="#rebajas">Rebajas</a>
+        <a href="#Lets get fuzzy">Lets get fuzzy</a>
+        <a href="#cuenta">Cuenta</a>
+        <a href="">🛒Carrito</a>
+    </nav>
+    <header>
+        <img src="principal.png" alt="" >
+        </div>
+    </header>
+    <main>
+        <section id="promo">
+            <div class="b">
+                <h3>Levis X Belinda</h3>
+                <h2>GANANDO COMO SIEMPRE</h2>
+                <P>Asi se ve el denim hecho por una original</P>
+            </div>
+        </section>
+        <section id="mujer">
+            <h2>Mujer</h2>
+            <div class="b">
+                <div class="card">
+                    <img src="esposadejaquez1.png" alt="">
+                    <h3>Levis Belinda Chamarra Trucker</h3>
+                    <strong>$2,999.00</strong>
+                </div>
+                <div class="card">
+                    <img src="esposadejaquez2.png" alt="">
+                    <h3>Levis Belinda Blusa</h3>
+                    <strong>$3,999.00</strong>
+                </div>
+                <div class="card">
+                    <img src="esposadejaquez3.png" alt="">
+                    <h3>Levis Belinda Cowboy bottom jeans</h3>
+                    <strong>$1,999.00</strong>
+                </div>
+            </div>
+        </section>
+        <section id="hombre">
+            <h2>hombre</h2>
+            <div class="b">
+                <div class="card">
+                    <img src="image1.jpg" alt="">
+                    <h3>Levis Belinda Chamarra Trucker</h3>
+                    <strong>$2,999.00</strong>
+                </div>
+                <div class="card">
+                    <img src="image1.jpg" alt="">
+                    <h3>Levis Belinda Blusa</h3>
+                    <strong>$3,999.00</strong>
+                </div>
+                <div class="card">
+                    <img src="image1.jpg" alt="">
+                    <h3>Levis Belinda Cowboy bottom jeans</h3>
+                    <strong>$1,999.00</strong>
+                </div>
+            </div>
+        </section>
+        <section id="kids">
+            <h2>kids</h2>
+            <div class="b">
+                <div class="card">
+                    <img src="images.jpg" alt="">
+                    <h3>Levis Belinda Chamarra Trucker</h3>
+                    <strong>$2,999.00</strong>
+                </div>
+                <div class="card">
+                    <img src="images.jpg" alt="">
+                    <h3>Levis Belinda Blusa</h3>
+                    <strong>$3,999.00</strong>
+                </div>
+                <div class="card">
+                    <img src="images.jpg" alt="">
+                    <h3>Levis Belinda Cowboy bottom jeans</h3>
+                    <strong>$1,999.00</strong>
+                </div>
+            </div>
+        </section>
+        <section id="Colecciones">
+            <h2>colecciones</h2>
+            <div class="b">
+                <div class="card">
+                    <img src="ok.webp" alt="">
+                    <h3>Levis Belinda Chamarra Trucker</h3>
+                    <strong>$2,999.00</strong>
+                </div>
+                <div class="card">
+                    <img src="ok.webp" alt="">
+                    <h3>Levis Belinda Blusa</h3>
+                    <strong>$3,999.00</strong>
+                </div>
+                <div class="card">
+                    <img src="ok.webp" alt="">
+                    <h3>Levis Belinda Cowboy bottom jeans</h3>
+                    <strong>$1,999.00</strong>
+                </div>
+            </div>
+        </section>
+        <section id="rebajas">
+            <h2>rebajas</h2>
+            <div class="b">
+                <div class="card">
+                    <img src="on.webp" alt="">
+                    <h3>Levis Belinda Chamarra Trucker</h3>
+                    <strong>$2,999.00</strong>
+                </div>
+                <div class="card">
+                    <img src="on.webp" alt="">
+                    <h3>Levis Belinda Blusa</h3>
+                    <strong>$3,999.00</strong>
+                </div>
+                <div class="card">
+                    <img src="on.webp" alt="">
+                    <h3>Levis Belinda Cowboy bottom jeans</h3>
+                    <strong>$1,999.00</strong>
+                </div>
+            </div>
+        </section>
+        <section id="Lets get fuzzy">
+            <h2>letz get guzzy</h2>
+            <div class="b">
+                <div class="card">
+                    <img src="ttt.webp" alt="">
+                    <h3>Levis Belinda Chamarra Trucker</h3>
+                    <strong>$2,999.00</strong>
+                </div>
+                <div class="card">
+                    <img src="ttt.webp" alt="">
+                    <h3>Levis Belinda Blusa</h3>
+                    <strong>$3,999.00</strong>
+                </div>
+                <div class="card">
+                    <img src="ttt.webp" alt="">
+                    <h3>Levis Belinda Cowboy bottom jeans</h3>
+                    <strong>$1,999.00</strong>
+                </div>
+            </div>
+        </section>
+        <section id="cuenta">
+            <h2>Inicio de Sesión</h2>
+            <form id="formUsuario" onsubmit="mostrarUsuario(event)">
+              <label for="nombre">Nombre completo:</label>
+              <input type="text" id="nombre" placeholder="tu nombre" required>
+              <label for="correo">Correo electrónico:</label>
+              <input type="email" id="correo" placeholder="tu correo" required> 
+              <label for="password">Contraseña:</label>
+              <input type="password" id="password" placeholder="••••••••" required>
+              <button type="submit">Ingresar / Registrarse</button>
+            </form>
+            <p id="bienvenida"></p>
+          </section>
+          </main> 
+          <footer>
+            <p><strong>0854:</strong> Jaquez Camacho Jesus Ariel</p>
+          </footer>
+          <script>
+            function mostrarUsuario(event) {
+              event.preventDefault();
+              const nombre = document.getElementById('nombre').value;
+              const correo = document.getElementById('correo').value;
+              const bienvenida = document.getElementById('bienvenida');
+              bienvenida.textContent = `¡Bienvenido(a), ${nombre}! Sesión iniciada con el correo: ${correo}.`;
+              document.getElementById('formUsuario').reset();
+            }
+          </script>
+</body>
+</html>
